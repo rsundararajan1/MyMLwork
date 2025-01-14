@@ -1,0 +1,33 @@
+without scaling:
+Random Regressor:
+Mean Absolute Error (MAE): 5.926851834645521
+Root Mean Squared Error (RMSE): 8.348217907806797
+R² Score: 0.8982139241512667
+
+xgboost:
+Mean Absolute Error (MAE): 8.713344251120642
+Root Mean Squared Error (RMSE): 10.854383282769826
+R² Score: 0.8279276364345627xgboost:
+
+
+with scaling: (MinMaxScaler)
+Random Regressor:
+Mean Absolute Error (MAE): 9.48101180347403
+Root Mean Squared Error (RMSE): 12.460805494760653
+R² Score: 0.7732261088188157
+
+xgboost:
+
+Mean Absolute Error (MAE): 14.420569465010143
+Root Mean Squared Error (RMSE): 17.048878365117087
+R² Score: 0.5754855842254548
+
+standardscaler:
+Random regressor:
+Mean Absolute Error (MAE): 8.25535770176007
+Root Mean Squared Error (RMSE): 10.504561902474626
+R² Score: 0.8388402045697197
+xgboost:
+Mean Absolute Error (MAE): 11.63730908735793
+Root Mean Squared Error (RMSE): 13.689898070831656
+R² Score: 0.7262833303417443
